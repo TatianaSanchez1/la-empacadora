@@ -21,6 +21,17 @@ if (!isset($_SESSION['user'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Empacadora</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/navbar.css">
 </head>
 
 <body>
@@ -32,26 +43,7 @@ if (!isset($_SESSION['user'])) {
 
         <div id="page-wrapper">
 
-            <div class="container-fluid">
 
-                <!-- Page Heading -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1 class="page-header">
-                            Bienvenid@ <small>Administrador</small>
-                        </h1>
-                        <ol class="breadcrumb">
-                            <li class="active">
-                                <i class="fa fa-home"></i> Inicio
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-                <!-- /.row -->
-                <div id="order"></div>
-
-            </div>
-            <!-- /.container-fluid -->
 
         </div>
         <!-- /#page-wrapper -->
