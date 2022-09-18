@@ -99,7 +99,7 @@ body {
     border-bottom-color: #B34A72;
 }
 
-.form input[type="button"] {
+.form input[type="submit"] {
     width: 60%;
     margin-bottom: 48px;
     border: #fff thin solid;
@@ -114,7 +114,7 @@ body {
     transition: all .5s ease-in;
 }
 
-.form input[type="button"]:hover {
+.form input[type="submit"]:hover {
     background-color: #D85386;
     color: #ccc;
 }
