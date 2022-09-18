@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.container-form {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: space-between;
+    transition: all .5s ease-out;
+}
+
+.welcome-back {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.message {
+    padding: 16px;
+}
+
+.message h2 {
+    font-size: 28px;
+    padding: 16px 0;
+}
+
+.message button {
+    padding: 16px;
+    font-weight: 400;
+    background-color: #D85386;
+    border-radius: 32px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 32px;
+    transition: all .3s ease-in;
+    color: #fff;
+}
+
+.message button:hover {
+    background-color: #B34A72;
+}
+
+.form {
+    width: 400px;
+    padding: 14px;
+    margin: 32px;
+    background-color: rgba(51, 51, 51, 0.8);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.create-account {
+    padding: 43px 0;
+    font-size: 27px;
+}
+
+.free-account {
+    padding: 32px 0;
+
+}
+
+.form input {
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    background-color: transparent;
+    border: none;
+    border-bottom: #fff thin solid;
+    text-align: center;
+    outline: none;
+    padding: 3px;
+    font-size: 16px;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.form input:is(:focus, :valid) {
+    border-bottom-color: #B34A72;
+}
+
+.form input[type="button"] {
+    width: 60%;
+    margin-bottom: 48px;
+    border: #fff thin solid;
+    padding: 11px;
+    border-radius: 32px;
+    background-color: #fff;
+    font-weight: 700;
+    margin-top: 48px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #222;
+    transition: all .5s ease-in;
+}
+
+.form input[type="button"]:hover {
+    background-color: #D85386;
+    color: #ccc;
+}
+
+.sign-in {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.sign-in.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.sign-up.active {
+    opacity: 0;
+    visibility: hidden;
+}
