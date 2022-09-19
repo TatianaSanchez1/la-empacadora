@@ -43,7 +43,18 @@ if (!isset($_SESSION['user'])) {
 
         <div id="page-wrapper">
 
-
+            <!-- Page Heading -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">
+                    </h1>
+                </div>
+            </div>
+            <!-- /.row -->
+            <button class="btn btn-default" id="add-new-item">Agregar producto
+                <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+            </button>
+            <div id="all-item"></div>
 
         </div>
         <!-- /#page-wrapper -->
@@ -51,6 +62,7 @@ if (!isset($_SESSION['user'])) {
     </div>
     <!-- /#wrapper -->
 
+    <?php include('modal/add_new_item.php'); ?>
 
 
 </body>

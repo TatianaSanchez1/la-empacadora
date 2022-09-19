@@ -10,10 +10,7 @@
 
     <ul>
         <li>
-            <a href="" class="active">Inicio</a>
-        </li>
-        <li>
-            <a href="">Productos</a>
+            <a href="" class="active">Productos</a>
         </li>
         <li>
             <a href="">Ingredientes</a>
